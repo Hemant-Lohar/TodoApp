@@ -88,7 +88,7 @@ function Todo() {
 
     return (
         <>
-            <div className="flex flex-col text-center  max-w-screen h-screen">
+            <div className="container flex flex-col text-center  max-w-screen h-screen">
 
                 <div className="title filter drop-shadow-md">
                     <div className="w-32 p-3 mx-auto filter drop-shadow-md"><img src="images/to-do-logo.png" alt="ToDo Logo" className="mt-4" /></div>
