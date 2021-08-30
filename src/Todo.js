@@ -88,14 +88,14 @@ function Todo() {
 
     return (
         <>
-            <div className="container flex flex-col text-center  max-w-screen md:max-h-full h-screen">
+            <div className="container flex flex-col text-center  max-w-screen md:max-h-full h-screen bg-red-50 ">
 
-                <div className="title filter drop-shadow-md">
+                <div className="title filter drop-shadow-md bg-white">
                     <div className="w-32 p-3 mx-auto filter drop-shadow-md"><img src="images/to-do-logo.png" alt="ToDo Logo" className="mt-4" /></div>
                     <div><h1 className="text-pink-800 text-3xl pb-8 font-extrabold">ToDo List ✌</h1></div>
                 </div>
 
-                <div className="main bg-red-400 bg-opacity-10 pt-2 flex flex-col h-full">
+                <div className="main bg-red-50 pt-2 flex flex-col">
                     
                         <div className="rounded-full bg-white py-2 px-2 my-6 flex max-w-xs mx-auto justify-between filter drop-shadow-md focus-within:ringColor-red focus:ring-2 overflow-ellipsis overflow-hidden">
                             <input type="text"
@@ -161,7 +161,7 @@ function Todo() {
                     </div>
 
                 </div>
-                <footer className="py-4 text-xs bg-gray-700 text-gray-600 ">
+                <footer className="mt-auto py-4 text-xs bg-gray-700 text-gray-600 ">
                         <div className="flex justify-center items-center min-w-min">
                             <p className="text-center text-gray-200  mx-4">&copy;Hemamt Lohar 2021 </p>
                             <a href="https://github.com/Hemant-Lohar"><i class="fab fa-github text-gray-400 hover:text-white mx-4 text-xl"></i></a>
