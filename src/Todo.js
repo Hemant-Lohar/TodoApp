@@ -99,7 +99,7 @@ function Todo() {
                     
                         <div className="rounded-full bg-white py-2 px-2 my-6 flex max-w-xs mx-auto justify-between filter drop-shadow-md focus-within:ringColor-red focus:ring-2 overflow-ellipsis overflow-hidden">
                             <input type="text"
-                            placeholder="✍  Add ToDo Here"
+                            placeholder="✍  Add ToDo Here !"
                             className="text-lg text-left ml-4 text-black focus:outline-none focus:bg-purple-600 focus:bg-opacity-5" 
                             value={inputdata}
                             onChange={(event) => {setInputdata(event.target.value)}}
